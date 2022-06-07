@@ -1,1 +1,1 @@
-# java-script-theory
+# JavaScript Theory
