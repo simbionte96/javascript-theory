@@ -1,6 +1,6 @@
 # Hoisting
 
-In JavaScript the statements of the variables and functions are allocated in memory in compile time. On a practical level it's like an interpreter moved such statements to the beginning of their scope. This behaviour is known as **hoisting**.
+In JavaScript the variable statements and functions statements are allocated in memory in compile time. On a practical level it's like an interpreter moved such statements to the beginning of its scope. This behaviour is known as **hoisting**.
 
 Example
 
@@ -12,7 +12,7 @@ function greet() {
 }
 ```
 
-When allocate the statement in memory it's like "going up" the function to the beginning of their scope.
+When we allocate a statement in memory, it's like "going up" to the beginning of its scope.
 
 Example
 
@@ -24,7 +24,7 @@ function greet() {
 greet(); //"Hello world"  
 ```
 
-In the case of the variables, the hoisting can generate unexpected behaviours. The hoisting afects the statements not assignments.
+In the case of the variables, the hoisting can generate unexpected behaviours. The hoisting afects the statements but not the assignments.
 
 Example
 
